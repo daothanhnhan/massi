@@ -1,0 +1,1 @@
+<?php include DIR_PRODUCT."MS_PRODUCT_SHOPHOW_0009.php";?>

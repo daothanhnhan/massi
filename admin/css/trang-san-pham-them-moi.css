@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*** Center ***/
+
+#productOrg{
+	text-transform: capitalize;
+	position: relative;
+}
+
+.centerWeb{
+	position:relative;
+	width:100%;
+	padding-left:270px;
+	padding-right:20px;
+	padding-top:80px;
+	padding-bottom:30px;
+	float:left;
+
+}
+.coverWeb{
+	float:left;
+	width:100%;
+}
+
+
+
+/*** Trang Noi Dung ***/
+.rightFixedTop{
+	float:right;
+}
+.btnTop{
+	margin-top:13px;
+	color:#fff;
+	font-size:14px;
+	padding:6px 15px;
+	background-color:#058BC3;
+	margin-left:10px;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border:none;
+}
+.btnTop:hover{
+	background-color:#666;
+}
+.btnSaveTop{
+	background-color:#058BC3;
+}
+.btnDeleteTop{
+	background-color:#931313;
+}
+.rowNodeContentPage{
+	float:left;
+	width:100%;
+	margin-bottom:25px;
+}
+.rowNodeContentPage:last-child{
+	margin-bottom:0px;
+}
+.leftNCP{
+	float:left;
+	width:27%;
+	margin-right:3%;	
+}
+.titLeftNCP{
+	width:100%;
+	font-size:18px;
+}
+.subLeftNCP{
+	width:100%;
+	font-size:15px;
+	color:#6A6A6A;
+}
+.boxNodeContentPage{
+	float:left;
+	width:70%;
+    background-color: #fff;
+	padding:10px 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+}
+
+.km_{
+	margin-right: 42%;
+	float:left;
+}
+.titleRightNCP{
+	font-weight:bold;
+	font-size:13px;
+	margin-top:12px;
+}
+.subRightNCP{
+	float:right;
+	font-size:13px;
+	margin-top:12px;
+}
+.choseIMGNews{
+	float:left;
+	margin:10px 0px;
+}
+.txtNCP1{
+	width:100%;
+	border:1px solid #ccc;
+	padding:7px 10px;
+	margin-top:5px;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+
+	outline:none;
+}
+.longtxtNCP1, .longtxtNCP2{
+	width:100%;
+	border:1px solid #ccc;
+	padding:7px 10px;
+	margin-top:5px;
+	margin-bottom:10px;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+
+	font-family:"Open Sans";
+	height:250px;
+	outline:none;
+}
+.longtxtNCP2{
+	height:70px;
+}
+.rowNCP{
+	float:left;
+	width:100%;
+}
+
+.subColContent{
+	float:left;
+	width:48%;
+	margin-right:4%;
+}
+.subColContent:last-child{
+	margin-right:0%;
+}
+.sltBV{
+	float:left;
+	width:100%;
+
+    border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border:1px solid #ccc;
+	font-size:13px;
+	padding:7px 7px;
+	margin-top:7px;
+}
+.radioNCP{
+	font-size:14px;
+	float:left;
+	margin-top:10px;
+}
+.radioNCP input{
+	margin-right:8px;
+	margin-top:3px;
+	float:left;
+}
+.coverLinkNCP{
+	float:left;
+	width:100%;
+}
+.coverLinkNCP{
+	float:left;
+	width:100%;
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	border:1px solid #ccc;
+	margin-top:10px;
+}
+.nameLinkNCP{
+	float:left;
+	width:35%;
+	border:none;
+	border-right:1px solid #ccc;
+	line-height:30px;
+	height:30px;
+	font-size:15px;
+	outline:none;
+	text-align:left;
+	padding-left:10px;
+	background-color:#E5E5E5;
+
+}
+.txtLinkNCP{
+	float:left;
+	width:65%;
+	border:none;
+	height:28px;
+	outline:none;
+	padding-left:10px;
+
+	color:#A2A2A2;
+}
+.footerWeb{
+	width:100%;
+	text-align:center;
+	color:#555555;
+	font-size:14px;
+	margin-top:20px;
+	line-height:1.6;
+}
+
+
+
+
+
+.mess{
+	width:100%;
+	background: #4CAF50;
+	float:left;
+	font-size:1.5em;
+	color:white;
+	padding:10px 5px;
+}
+
+.err{
+	width:100%;
+	background:red;
+	float:left;
+	font-size:1.5em;
+	color:white;
+	padding:10px 5px;
+}
+
+.table{
+	color:red;
+	border:none;
+	background: #e6e6e6;
+	
+}

@@ -1,0 +1,155 @@
+
+
+/*** Trang Noi Dung ***/
+.rightFixedTop{
+	float:right;
+}
+
+.rowNodeContentPage{
+	float:left;
+	width:100%;
+	margin-bottom:25px;
+}
+.rowNodeContentPage:last-child{
+	margin-bottom:0px;
+}
+.leftNCP{
+	float:left;
+	width:27%;
+	margin-right:3%;	
+}
+.titLeftNCP{
+	width:100%;
+	font-size:1.6em;
+}
+.subLeftNCP{
+	width:100%;
+	font-size:1.5em;
+	color:#6A6A6A;
+}
+
+.titleRightNCP{
+	font-weight:bold;
+	font-size:1.3em;
+	margin-top:12px;
+}
+.subRightNCP{
+	float:right;
+	font-size:1.3em;
+	margin-top:12px;
+}
+.choseIMGNews{
+	float:left;
+	margin:10px 0px;
+}
+.txtNCP1{
+	width:100%;
+	border:1px solid #ccc;
+	padding:7px 10px;
+	margin-top:5px;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	outline:none;
+}
+.longtxtNCP1, .longtxtNCP2{
+	width:100%;
+	border:1px solid #ccc;
+	padding:7px 10px;
+	margin-top:5px;
+	margin-bottom:10px;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-family:"Open Sans";
+	height:250px;
+	outline:none;
+}
+.longtxtNCP2{
+	height:70px;
+}
+
+.subColContent{
+	float:left;
+	width:48%;
+	margin-right:4%;
+}
+.subColContent:last-child{
+	margin-right:0%;
+}
+.sltBV{
+	float:left;
+	width:100%;
+    border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border:1px solid #ccc;
+	font-size:1.3em;
+	padding:7px 7px;
+	margin-top:7px;
+}
+.radioNCP{
+	font-size:1.4em;
+	float:left;
+	margin-top:10px;
+}
+.radioNCP input{
+	margin-right:8px;
+	margin-top:3px;
+	float:left;
+}
+.coverLinkNCP{
+	float:left;
+	width:100%;
+}
+.coverLinkNCP{
+	float:left;
+	width:100%;
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border:1px solid #ccc;
+	margin-top:10px;
+}
+.nameLinkNCP{
+	float:left;
+	width:35%;
+	border:none;
+	border-right:1px solid #ccc;
+	line-height:30px;
+	height:30px;
+	font-size:1.5em;
+	outline:none;
+	text-align:left;
+	padding-left:10px;
+	background-color:#E5E5E5;
+	
+}
+.txtLinkNCP{
+	float:left;
+	width:65%;
+	border:none;
+	height:28px;
+	outline:none;
+	padding-left:10px;
+	
+	color:#A2A2A2;
+}
+.footerWeb{
+	width:100%;
+	text-align:center;
+	color:#555555;
+	font-size:1.4em;
+	margin-top:20px;
+	line-height:1.6;
+}
+
+

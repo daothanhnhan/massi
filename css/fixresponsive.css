@@ -1,0 +1,89 @@
+@media screen and (max-width: 991px){
+
+.gb-top-header_shophow img{
+
+    left: 0px !important;
+
+}
+
+/*.mobile-nav .menu-mobile-nav {
+
+    top: 105px;
+
+    left: 15px;
+
+}*/
+
+.gb-tieubieu-product_shophow {
+
+    padding: 10px;
+
+}
+
+#fixreponsive{
+
+	/*height: 160px;*/
+
+}
+
+.gb-tieubieu-product_shophow .gb-tieubieu-product_shophow-title {
+
+    margin-bottom: 20px;
+
+}
+
+/*.gb-product_shophow-item{
+
+	height: 228px;
+
+	width: 160px;
+
+}*/
+
+.gb-product_shophow-item-text{
+
+	height: 79px;
+
+}
+
+.foote{
+
+	margin-top: 0px !important;
+
+}
+
+ #foote2{
+
+    height: auto !important;
+
+    padding-bottom: 20px;
+
+}
+
+.live{
+
+	padding-top: 10px;
+
+}
+
+.end{
+
+	padding-top: 10px;
+
+}
+
+.item1{
+
+	width: 140px;
+
+}
+.banner-bottom {
+    padding: 25px;
+}
+.banner-footer-item-info{
+    font-size: 15px;
+}
+footer .footer-block .footer-address .adress-item {
+    padding-right: 2px;
+}
+}

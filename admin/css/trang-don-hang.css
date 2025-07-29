@@ -1,0 +1,137 @@
+
+.titleNP{
+	float:left;
+	width:100%;
+	border-bottom:2px solid #D0D0D0;
+	padding: 5px;
+}
+.titleNP:last-child{
+	border:none;
+}
+.colNP0, .colNP0_2{
+	width:3%;
+	float: left;
+	margin-right: 2%;
+	position: relative;
+	margin-top: 3px;
+}
+
+.colNP1{
+	width:8%;
+	margin-right:2%;
+	font-size:13px;
+	font-weight:bold;
+	
+}
+.colNP2{
+	width:15%;
+	margin-right:2%;
+	font-size:13px;
+	font-weight:bold;
+}
+.colNP3{
+	width:23%;
+	margin-right:2%;
+	font-size:13px;
+	font-weight:bold;
+}
+.colNP4{
+	width:13%;
+	font-size:13px;
+	font-weight:bold;
+	margin-right:2%;
+}
+.colNP5{
+	width:13%;
+	font-size:13px;
+	font-weight:bold;
+	margin-right:2%;
+}
+.colNP6{
+	text-align: right;
+	float:right;
+	width: 13%;
+	font-size:13px;
+	font-weight:bold;
+}
+
+
+.titleNP li{
+	width:100%;
+	border-bottom:1px solid #CDCDCD;	
+	padding:10px 0;
+}
+.titleNP li:last-child{
+	border:none;
+}
+
+.footerWeb{
+	width:100%;
+	text-align:center;
+	color:#555555;
+	font-size:13px;
+	margin-top:20px;
+	line-height:1.6;
+}
+
+.colNP1_2{
+	width:8%;
+	margin-right:2%;
+	text-align:left;
+	float:left;
+}
+
+.colNP1_2 a{
+	font-size:13px;
+	color:#0B4D95;
+}
+
+.colNP1_2 a:hover{
+	text-decoration:underline;
+}
+
+.colNP2_2{
+	width:15%;
+	margin-right:2%;
+	text-align:left;
+	font-size: 13px;
+}
+
+.colNP3_2{
+	width:23%;
+	margin-right:2%;
+	text-align:left;
+	font-size:13px;
+}
+
+.colNP4_2{
+	width:13%;
+	text-align:left;
+	margin-right:2%;
+	font-size:13px;
+}
+
+.colNP5_2{
+	width:13%;
+	text-align:left;
+	margin-right:2%;
+	font-size:13px;
+}
+
+.colNP6_2{
+	width: 13%;
+	float:right;
+	text-align: right;
+	font-size:13px;
+}
+
+
+
+
+
+
+
+
+
+
+

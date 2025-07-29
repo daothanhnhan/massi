@@ -1,0 +1,39 @@
+.gb-danhmuctieubieu_ruouvang{
+  margin-top: 50px;
+  .gb-danhmuctieubieu_ruouvang-title{
+    text-align: center;
+    margin-bottom: 40px;
+    h2{
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+  }
+  .gb-danhmuctieubieu_ruouvang-item{
+    position: relative;
+    display:  block;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 30px;
+    &:hover{
+      h3{
+        background: $color-main-ruouvang;
+      }
+    }
+    h3{
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      padding: 15px;
+      text-transform: uppercase;
+      background: rgba(0, 0, 0, 0.7);
+      position:  absolute;
+      width: 250px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.gb-introvechungtoi_rem{
+  padding:50px 0;
+  background: #f1f1f1;
+  .gb-introvechungtoi_ruouvang-left{
+    h2{
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+    .gb-divider {
+      border-color: $color-main1-ruouvang;
+      margin: 15px 0;
+    }
+    p{
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .gb-introvechungtoi_ruouvang-doctiep{
+      background: $color-main1-ruouvang;
+      display:  inline-block;
+      min-width: 100px;
+      padding: 10px 0;
+      color: $color-white;
+      text-align: center;
+      text-transform: uppercase;
+      border: 1px solid $color-main1-ruouvang;
+      transition:  all 0.5s;
+      margin-top: 30px;
+      &:hover{
+        color: $color-main1-ruouvang;
+        background:  transparent;
+      }
+    }
+  }
+  .gb-introvechungtoi_ruouvang-right{
+    img{
+      width: 100%;
+      height:  auto;
+    }
+  }
+}

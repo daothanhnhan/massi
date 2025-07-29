@@ -1,0 +1,36 @@
+.gb-header-between_ruouvang-between{
+  padding-top: 10px;
+  ul{
+    display:  flex;
+    li{
+      width: 50%;
+      float: left;
+      .icons_ruouvang{
+        width: 40px;
+        height: 40px;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        color: $color-main1-ruouvang;
+        border-radius: 50%;
+        float: left;
+      }
+      .info_support_ruouvang{
+        width: calc(100% - 40px);
+        float: left;
+        padding-left: 15px;
+        h3{
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 24px;
+        }
+        span{
+          font-size: 13px;
+          display:  block;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+/*Định nghĩa màu cho website*/
+
+//MÀU CHỦ ĐẠO CHO WEBSITE KÍNH MẮT
+$color-main-ruouvang: #c41230;
+$color-main1-ruouvang: #f79321;
+$color-border: #dcdcdc;
+// MÀU CHỮ
+$color-white: #fff;
+$color-grey: #7a7a7a;
+$color-1: #333;
+$color-2: #3a3a3a;
+$color-3: #999;
+$color-4: #f4f4f4;
+
+//COLOR ICON PRICE
+$color-5: #2e6c97;
+/*Định nghĩa font-family cho website*/
+
+@import "../plugin/fonts/roboto/roboto.css";
+
+$roboto: 'Roboto';
+
+
+/*Định nghĩa font-size cho website*/
+h1{
+  font-size: 24px;
+  line-height: 1.5;
+}
+h2{
+  font-size: 22px;
+  line-height: 1.5;
+}
+h3{
+  font-size: 20px;
+  line-height: 1.5;
+}
+h4{
+  font-size: 18px;
+  line-height: 1.5;
+}
+h5{
+  font-size: 16px;
+  line-height: 1.5;
+}
+h6{
+  font-size: 14px;
+  line-height: 1.5;
+}
+p{
+  line-height: 1.5;
+}
+

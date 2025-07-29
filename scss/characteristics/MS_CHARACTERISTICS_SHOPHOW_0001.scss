@@ -1,0 +1,43 @@
+.gb-taisaolaichonchungtoi_rem{
+  padding: 100px 0;
+  background: url("../images/back-3.jpg") no-repeat center center;
+  background-size: cover;
+  .gb-taisaolaichonchungtoi_ruouvang-title{
+    margin-bottom: 40px;
+    h3{
+      font-size: 24px;
+      text-transform: uppercase;
+      text-align: center;
+      color: $color-white;
+      span{
+        color: $color-main1-ruouvang;
+      }
+    }
+  }
+  .gb-taisaolaichonchungtoi_ruouvang-item{
+    h4{
+      font-size: 18px;
+      text-transform: uppercase;
+      text-align: center;
+      color: $color-white;
+      margin-bottom: 20px;
+    }
+    span{
+      font-size: 48px;
+      display: block;
+      text-align: center;
+      color: $color-main1-ruouvang;
+      margin-bottom: 15px;
+    }
+    .gb-divider{
+      width: 40%;
+      margin:  0 auto;
+      margin-bottom: 20px;
+      border-color: $color-main1-ruouvang;
+    }
+    p{
+      font-size: 16px;
+      color: $color-white;
+    }
+  }
+}

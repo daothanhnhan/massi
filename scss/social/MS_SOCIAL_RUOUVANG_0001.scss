@@ -1,0 +1,19 @@
+.gb-top-header_ruouvang-right-social{
+  ul{
+    li{
+      display:  inline-block;
+      a{
+        display: block;
+        color: $color-white;
+        font-weight: 700;
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 10px;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main1-ruouvang;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.widget-sidebar{
+  margin-bottom: 30px;
+}
+.gb-timkiem-sidebar-ruouvang{
+  .widget-title-sidebar-ruouvang{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: $color-1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $color-main-ruouvang;
+  }
+  .vk-newlist-banner-test-search button{
+    transition: all 0.5s;
+  }
+  .vk-newlist-banner-test-search button:hover{
+    background: $color-main-ruouvang;
+    color: $color-white;
+  }
+  form{
+    border-radius: 0;
+    overflow: hidden;
+  }
+
+  .vk-newlist-banner-test-search{
+    width: 100%;
+    height: 50px;
+    background: $color-white;
+    border: solid 1px $color-main-ruouvang;
+    border-radius: 0;
+    input{
+      width: 80%;
+      height: 50px;
+      border: none;
+      outline: none;
+      color: $color-1;
+      background: transparent;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 14px;
+      text-indent: 15px;
+    }
+    button{
+      width: 20%;
+      height: 48px;
+      background: $color-main-ruouvang;
+      border:  none;
+      border-left: 1px solid $color-main-ruouvang;
+      outline: none;
+      text-align: center;
+      line-height: 44px;
+      color: #fff;
+      font-size: 14px;
+      float: right;
+      border-radius: 0;
+      transition:  all 0.5s;
+      &:hover{
+        color: $color-main-ruouvang;
+        background: transparent;
+      }
+    }
+  }
+}

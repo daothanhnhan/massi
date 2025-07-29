@@ -1,0 +1,52 @@
+.gb-product-sidebar-ruouvang{
+  .widget-title-sidebar-ruouvang{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: $color-white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 40px;
+    padding-left: 10px;
+    background: $color-main-ruouvang;
+    border-left: 5px solid $color-main1-ruouvang;
+  }
+  .gb-product-sidebar_ruouvang-item{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #e0e0e0;
+    &:last-child{
+      border-bottom: none;
+    }
+    .gb-product-sidebar_ruouvang-item-img{
+      float: left;
+      border: 1px solid #E0E0E0;
+      img{
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+      }
+    }
+    .gb-product-sidebar_ruouvang-item-info{
+      padding-left: 80px;
+      h4{
+        a{
+          display: block;
+          font-size: 14px;
+          line-height: 21px;
+          color: #333;
+          font-weight: 500;
+          margin-bottom: 10px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+        }
+      }
+      .prices_ruouvang{
+        font-size: 14px;
+      }
+    }
+  }
+}

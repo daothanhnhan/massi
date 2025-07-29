@@ -1,0 +1,108 @@
+.gb-slideshow_ruouvang{
+  position: relative;
+  .owl-nav [class*=owl-]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: $color-main-ruouvang !important;
+    border: 3px solid $color-main-ruouvang;
+    transition:  all 0.5s;
+    &:hover{
+      background: transparent !important;
+      border-color: $color-main-ruouvang;
+    }
+  }
+  .owl-nav{
+    margin-top: 0 !important;
+    @media screen and (max-width: 991px) and (min-width: 768px)  {
+      top: -78px;
+    }
+    .owl-prev{
+      position: absolute;
+      top: 45%;
+      left: 20px;
+      display: flex !important;
+      &:before{
+        content: '\f104';
+        font-family: FontAwesome;
+        color: $color-white;
+        font-size: 20px;
+      }
+    }
+    .owl-next{
+      position: absolute;
+      top: 45%;
+      right: 20px;
+      display: flex !important;
+      &:before{
+        content: '\f105';
+        font-family: FontAwesome;
+        color: $color-white;
+        font-size: 20px;
+      }
+    }
+  }
+  .owl-theme .owl-dots{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+  }
+
+  .slide-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @media screen and (max-width: 600px) {
+      display:  none;
+    }
+    h4{
+      display: block;
+      font-size: 30px;
+      line-height: 54px;
+      color: $color-main-ruouvang;
+      font-weight: 900;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      @media screen and (max-width: 767px) {
+        font-size: 18px;
+        line-height: 1;
+        margin-bottom: 10px;
+      }
+    }
+    p{
+      font-size: 16px;
+      color: $color-white;
+      line-height: 24px;
+      @media screen and (max-width: 767px) {
+        font-size: 13px;
+        line-height: 18px;
+      }
+    }
+    a{
+      display:  inline-block;
+      padding: 10px 25px;
+      background: $color-main-ruouvang;
+      color: $color-white;
+      border: 2px solid $color-main-ruouvang;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-top: 30px;
+      transition: all 0.5s;
+      @media screen and (max-width: 767px) {
+        font-size: 14px;
+        padding: 7px 25px;
+        margin-top: 10px;
+      }
+      &:hover{
+        color: $color-main-ruouvang;
+        background:  transparent;
+      }
+
+    }
+  }
+}

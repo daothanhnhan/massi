@@ -1,0 +1,36 @@
+.gb-lienhe{
+  padding: 50px 0;
+}
+.gb-form-lienhe{
+  h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    margin-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  form{
+    label{
+      font-size: 14px;
+      font-weight: 600;
+      text-align: left;
+      color: #333;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+  .btn-gui{
+    min-width: 200px;
+    background: $color-main-ruouvang;
+    border: 2px solid $color-main-ruouvang;
+    color: $color-white;
+    border-radius: 0;
+    transition:  all 0.5s;
+    &:hover{
+      background: transparent;
+      color: $color-main-ruouvang;
+    }
+  }
+}

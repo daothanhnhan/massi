@@ -1,0 +1,19 @@
+.footer-about-ruouvang-social{
+  ul{
+    li{
+      display:  inline-block;
+      a{
+        display: block;
+        color: $color-grey;
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 8px;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main-ruouvang;
+        }
+      }
+    }
+  }
+}

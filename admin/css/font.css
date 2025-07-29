@@ -1,0 +1,316 @@
+@charset "UTF-8";
+
+
+@font-face{
+	font-family:"UTM_FacebookR_K_T";
+	src:url(fonts/UTM_FacebookR_K_T.ttf);
+}
+@font-face{
+	font-family:"UTM_Flamenco";
+	src:url(fonts/UTM_Flamenco.ttf);
+}
+@font-face{
+	font-family:"UTM_Mother";
+	src:url(fonts/UTM_Mother.ttf);
+}
+@font-face{
+	font-family:"SVN_Beloved";
+	src:url(fonts/SVN_Beloved.otf);
+}
+
+
+
+
+@font-face {
+  font-family: "googleadwords";
+  src:url("fonts/googleadwords.eot");
+  src:url("fonts/googleadwords.eot?#iefix") format("embedded-opentype"),
+    url("fonts/googleadwords.woff") format("woff"),
+    url("fonts/googleadwords.ttf") format("truetype"),
+    url("fonts/googleadwords.svg#googleadwords") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "googleadwords" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "googleadwords" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quotation2:before {
+  content: "a";
+}
+.icon-quotation:before {
+  content: "b";
+}
+.icon-situation-1:before {
+  content: "c";
+}
+.icon-right11-1:before {
+  content: "d";
+}
+.icon-price-label:before {
+  content: "e";
+}
+.icon-tag79:before {
+  content: "f";
+}
+.icon-favourite24:before {
+  content: "g";
+}
+.icon-twitter1:before {
+  content: "h";
+}
+.icon-social16:before {
+  content: "i";
+}
+.icon-youtube18:before {
+  content: "j";
+}
+.icon-email20:before {
+  content: "k";
+}
+.icon-facebook55:before {
+  content: "l";
+}
+.icon-magnifyingglass-1:before {
+  content: "m";
+}
+.icon-calendar68:before {
+  content: "n";
+}
+.icon-basic14:before {
+  content: "o";
+}
+.icon-star129:before {
+  content: "p";
+}
+.icon-google116:before {
+  content: "q";
+}
+.icon-call60:before {
+  content: "r";
+}
+
+@font-face{
+	font-family:"UniSansHeavy";
+	src:url(fonts/UniSansHeavy.otf);
+}
+
+
+@font-face{
+	font-family:"UniSansHeavyItalic";
+	src:url(fonts/UniSansHeavyItalic.otf);
+}
+
+@font-face{
+	font-family:"UniSansThin";
+	src:url(fonts/UniSansThin.otf);
+}
+
+@font-face{
+	font-family:"UniSansThinItalic";
+	src:url(fonts/UniSansThinItalic.otf);
+}
+
+@font-face{
+	font-family:"AdrianeSwash";
+	src:url(fonts/VL_AdrianeSwash.otf);
+}
+
+@font-face{
+	font-family:"ForoRounded";
+	src:url(fonts/VL_ForoRounded-Regular.otf);
+}
+
+@font-face{
+	src:url(fonts/VNF-Intro%20Inline.ttf);
+	font-family:"IntroInline";
+	
+}
+
+@font-face{
+	font-family:"Tinta_Script";
+	src:url(fonts/VL_Tinta-Script.otf);
+}
+
+@font-face{
+	font-family:"Frosting";
+	src:url(fonts/UVFFrosting-for-Breakfast_regular.otf);
+}
+
+@font-face{
+	font-family:"Atlantika";
+	src:url(fonts/VL_Atlantika.otf);
+}
+
+@font-face{
+	font-family:"Golf";
+	src:url(fonts/VL_Golf.otf);
+}
+
+@font-face {
+  font-family: "font-vietbaichuanseo";
+  src:url("fonts/font-vietbaichuanseo.eot");
+  src:url("fonts/font-vietbaichuanseo.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-vietbaichuanseo.woff") format("woff"),
+    url("fonts/font-vietbaichuanseo.ttf") format("truetype"),
+    url("fonts/font-vietbaichuanseo.svg#font-vietbaichuanseo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "font-vietbaichuanseo" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "font-vietbaichuanseo" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-basic14:before {
+  content: "a";
+}
+.icon-business36:before {
+  content: "b";
+}
+.icon-businessman120:before {
+  content: "c";
+}
+.icon-calendar68:before {
+  content: "d";
+}
+.icon-car106:before {
+  content: "e";
+}
+.icon-client2:before {
+  content: "f";
+}
+.icon-dollar132:before {
+  content: "g";
+}
+.icon-group:before {
+  content: "h";
+}
+.icon-link74:before {
+  content: "i";
+}
+.icon-men16:before {
+  content: "j";
+}
+.icon-money215:before {
+  content: "k";
+}
+.icon-newspaper11:before {
+  content: "l";
+}
+.icon-one26:before {
+  content: "m";
+}
+.icon-plus24:before {
+  content: "n";
+}
+.icon-pointer29:before {
+  content: "o";
+}
+.icon-school35:before {
+  content: "p";
+}
+.icon-situation-1:before {
+  content: "q";
+}
+.icon-tag79:before {
+  content: "r";
+}
+.icon-piggy1:before {
+  content: "s";
+}
+.icon-price-label:before {
+  content: "t";
+}
+.icon-directions7:before {
+  content: "u";
+}
+.icon-magnifyingglass-1:before {
+  content: "v";
+}
+.icon-twitter1:before {
+  content: "x";
+}
+.icon-facebook55:before {
+  content: "y";
+}
+.icon-first31:before {
+  content: "z";
+}
+.icon-email20:before {
+  content: "A";
+}
+.icon-house204-1:before {
+  content: "B";
+}
+.icon-youtube18:before {
+  content: "C";
+}
+.icon-call60:before {
+  content: "D";
+}
+.icon-network3:before {
+  content: "E";
+}
+.icon-globe41:before {
+  content: "F";
+}
+.icon-phone325:before {
+  content: "G";
+}
+.icon-thumbs26:before {
+  content: "H";
+}
+.icon-google116:before {
+  content: "w";
+}
+.icon-right11-1:before {
+  content: "I";
+}

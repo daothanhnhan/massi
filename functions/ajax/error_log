@@ -1,0 +1,2 @@
+[05-Jan-2019 21:11:48 UTC] PHP Notice:  Undefined index: name in /home/mas88675/public_html/functions/ajax/login-go.php on line 4
+[05-Jan-2019 21:11:48 UTC] PHP Notice:  Undefined index: email in /home/mas88675/public_html/functions/ajax/login-go.php on line 5

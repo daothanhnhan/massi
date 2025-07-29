@@ -1,0 +1,83 @@
+.gb-page-sanpham_ruouvang{
+  padding: 50px 0;
+  .gb-product_ruouvang-item{
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom:  30px;
+    display:  flow-root;
+    &:hover{
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+      .gb-product_ruouvang-item-img{
+        .btn-addtocart_ruouvang{
+          opacity: 1;
+          top: 50%;
+        }
+      }
+    }
+    &-img{
+      a{
+        display:  block;
+        img{
+          width: 100%;
+          height: 250px;
+          @media screen and (max-width: 767px) {
+            height:  auto;
+          }
+        }
+      }
+      .btn-addtocart_ruouvang{
+        opacity: 0;
+        min-width: 150px;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        padding: 10px 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+    }
+    &-text{
+      padding: 20px;
+      h2{
+        a{
+          display:  block;
+          font-size: 14px;
+          line-height: 21px;
+          color: $color-1;
+          font-weight: 500;
+          margin-bottom: 10px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          text-align: center;
+          text-transform:  uppercase;
+        }
+      }
+      .product-xuatxu-dungtich-percent{
+        margin-bottom: 10px;
+        li{
+          display:  inline-block;
+          width: 32%;
+          font-size: 14px;
+          color: #7a7a7a;
+          line-height: 22px;
+          text-align: center;
+        }
+      }
+    }
+    .gb-product_ruouvang-item-yeumua{
+      a{
+        width: 50%;
+        float: left;
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*** Center ***/
+
+.centerWeb{
+	position:relative;
+	width:100%;
+	padding-left:270px;
+	padding-right:20px;
+	padding-top:80px;
+	padding-bottom:30px;
+	float:left;
+
+}
+.coverWeb{
+	float:left;
+	width:100%;
+}
+
+
+/*** Trang Noi Dung ***/
+.rightFixedTop{
+	float:right;
+}
+.btnAddTop{
+	margin-top:13px;
+	color:#fff;
+	font-size:14px;
+	padding:6px 15px;
+	background-color:#058BC3;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.btnAddTop:hover{
+	background-color:#005B9E;
+}
+.boxPageContent{
+	float:left;
+	width:100%;
+    background-color: #fff;
+	padding:10px 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	-webkit-border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+}
+.searchBox{
+	float:left;
+	width:100%;
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	border:1px solid #BCBCBC;
+	margin:20px 0px;
+}
+.btnSearchBox{
+	float:left;
+	width:10%;
+	border:none;
+	border-right:1px solid #BCBCBC;
+	height:30px;
+	outline:none;
+	background-color:#E5E5E5;
+	cursor:pointer;
+}
+.txtSearchBox{
+	float:left;
+	width:90%;
+	border:none;
+	height:28px;
+	outline:none;
+	padding-left:10px;
+
+	color:#A2A2A2;
+}
+
+
+
+
+.titleCP{
+	float:left;
+	width:100%;
+	border-bottom:2px solid #D0D0D0;
+	padding-bottom:7px;
+
+}
+.titleCP:last-child{
+	border:none;
+}
+.titCP1{
+	width:80%;
+	margin-right:3%;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:10px;
+
+}
+.titCP2{
+	width:17%;
+	font-size:13px;
+	font-weight:bold;
+}
+.titleCP li{
+	width:100%;
+	border-bottom:1px solid #CDCDCD;	
+	padding:10px 0px 10px 10px;
+
+}
+.titleCP li:last-child{
+	border:none;
+}
+.leftCP{
+	float:left;
+	width:80%;
+	margin-right:3%;
+}
+.leftCP a{
+	color:#04406B;
+	font-size:14px;
+}
+.leftCP a:hover{
+	text-decoration:underline;
+}
+.leftCP p{
+	color:#8A8A8A;
+	font-size:13px;
+	width:100%;
+	margin:4px 0px;
+}
+.rightCP{
+	width:17%;
+	font-size:13px;
+	color:#8A8A8A;
+}
+
+.footerWeb{
+	width:100%;
+	text-align:center;
+	color:#555555;
+	font-size:14px;
+	margin-top:20px;
+	line-height:1.6;
+}
+
+
+.listPhanTrang{
+	margin-top:10px;
+	float:none;
+	text-align: center;
+	font-size: 1.5em;
+
+}
+.listPhanTrang li{
+
+	border-top:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	border-left:1px solid #e6e6e6;
+	border-right: none;
+	width:50px;
+	text-align: center;
+
+}
+.listPhanTrang li:last-child{
+	border-right:1px solid #e6e6e6;
+}
+
+.listPhanTrang li a{
+	width:100%;
+	text-align: center;
+	color:blue;
+	padding:5px 10px;
+
+}
+
+
+.listPhanTrang li span{
+	width:100%;
+	text-align: center;
+	background: rgb(33, 150, 243);
+	color:white;
+	float:left;
+	padding:5px 10px;
+
+}
+.paging{
+	width: 100%;
+	height: 50px;
+	float:left;
+}
+
+
+
+.mess{
+	width:100%;
+	background: #4CAF50;
+	float:left;
+	font-size:1.5em;
+	color:white;
+	padding:10px 5px;
+
+}
+
+.err{
+	width:100%;
+	background:red;
+	float:left;
+	font-size:1.5em;
+	color:white;
+	padding:10px 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

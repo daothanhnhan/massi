@@ -1,0 +1,13 @@
+.box_partner_ruouvang {
+  padding-bottom: 50px; }
+  .box_partner_ruouvang .partner-item_ruouvang {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 110px; }

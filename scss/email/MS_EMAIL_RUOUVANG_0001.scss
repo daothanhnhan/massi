@@ -1,0 +1,26 @@
+.gb-footer-newletter_ruouvang{
+  .input-group{
+    border-radius: 4px;
+  }
+  .form-control{
+    height: 44px;
+    border: 1px solid #dbdbdb;
+    border-radius: 0;
+  }
+  p{
+    color: #808080;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  span{
+    .btn-theme{
+      height: 44px;
+      color: $color-1;
+      border-radius: 0;
+      border: 1px solid #dbdbdb;
+      background: transparent;
+    }
+  }
+}

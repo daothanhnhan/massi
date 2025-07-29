@@ -1,0 +1,63 @@
+.gb-tintuc-lienquan{
+  .gb-tintuc-lienquan-title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: $color-main-ruouvang;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .gb-tintuc-item{
+    .item-img{
+      height: 130px;
+      overflow: hidden;
+    }
+    .item-text{
+      padding-top: 10px;
+      h2{
+        a{
+          display:  block;
+          font-size: 18px;
+          color: $color-1;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          line-height: 22px;
+          overflow:  hidden;
+        }
+      }
+      p{
+        font-size: 14px;
+        line-height: 22px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+      }
+    }
+    time{
+      display:  block;
+      margin: 15px 0;
+    }
+    .btn-doctiep{
+      a{
+        display: inline-block;
+        min-width: 120px;
+        border: 1px solid $color-main-ruouvang;
+        text-align: center;
+        padding: 10px 0;
+        color: $color-white;
+        font-size: 14px;
+        background: $color-main-ruouvang;
+        margin-top: 10px;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main-ruouvang;
+          background:  transparent;
+        }
+      }
+    }
+  }
+}

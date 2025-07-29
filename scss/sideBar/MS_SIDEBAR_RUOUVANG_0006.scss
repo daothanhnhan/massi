@@ -1,0 +1,106 @@
+.gb-filterprices-sidebar-ruouvang{
+  .widget-title-sidebar-ruouvang{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: $color-1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $color-main-ruouvang;
+  }
+  #slider-range{
+    width: 100%;
+    height: 5px;
+    background: #E0E0E0;
+    border-radius: 2px;
+    border: none;
+    margin-top: 40px;
+  }
+  .ui-state-active{
+    border-color: transparent;
+    background: transparent;
+  }
+  .ui-state-default{
+    position: relative;
+    border-color: transparent;
+    background: transparent;
+    outline: none;
+    &:before{
+      content: '';
+      width: 16px !important;
+      height: 16px !important;
+      background: $color-main-ruouvang !important;
+      border: none;
+      border-radius: 50%;
+      outline: none;
+      top: 0px;
+      position: absolute;
+    }
+    &:after{
+      content: '';
+      width: 10px !important;
+      height: 10px !important;
+      background: #fff !important;
+      border: none;
+      border-radius: 50%;
+      outline: none;
+      top: 3px;
+      left: 3px;
+      position: absolute;
+    }
+  }
+  .ui-slider-horizontal .ui-slider-range{
+    background: $color-main-ruouvang;
+    margin-left: -5px;
+  }
+  .ui-slider-horizontal .ui-slider-range{
+    background: $color-main-ruouvang;
+    margin-left: -5px;
+  }
+  .label-filter-price{
+    text-align: center;
+    margin-top: 25px;
+    input{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.21;
+      letter-spacing: normal;
+      text-align: center;
+      color: #666666;
+      border: none;
+      background: transparent;
+    }
+  }
+
+  .btn-filter-prince{
+    width: 100%;
+    height: 44px;
+    border: none;
+    outline: none;
+    background: $color-main-ruouvang;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    border-radius: 3px;
+    color: #FFF;
+    position: relative;
+    margin-top: 25px;
+    transition:all 0.5s;
+    &:hover{
+      border:1px solid $color-main-ruouvang;
+      background: none;
+      color: $color-main-ruouvang;
+      transition:all 0.5s;
+    }
+  }
+  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border:  none;
+    background:  transparent;
+  }
+}

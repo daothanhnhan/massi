@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="1059825477818-qjv8799v8uqefmbnfq37upj4jqcg2uj9.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </head>
+  <body>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <script>
+      function onSignIn(googleUser) {
+        // Useful data for your client-side scripts:
+        var profile = googleUser.getBasicProfile();
+        // console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+        // console.log('Full Name: ' + profile.getName());
+        // console.log('Given Name: ' + profile.getGivenName());
+        // console.log('Family Name: ' + profile.getFamilyName());
+        // console.log("Image URL: " + profile.getImageUrl());
+        // console.log("Email: " + profile.getEmail());
+
+        // The ID token you need to pass to your backend:
+        // var id_token = googleUser.getAuthResponse().id_token;
+        // console.log("ID Token: " + id_token);
+        // alert('tuan');
+
+        var id = profile.getId();
+        var name = profile.getName();
+        var email = profile.getEmail();
+        // alert(id);
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+           var bien = this.responseText;
+           // alert(bien);
+           if (bien == 'ok') {
+            alert('Login thành công.');
+            window.location.href = "/";
+           } else if (bien == 'has') {
+            alert('Xin lỗi, Email đã tồn tại.');
+            window.location.href = "/dang-nhap";
+           } else {
+            alert('Login lỗi');
+            window.location.href = "/dang-nhap";
+           }
+          }
+        };
+        xhttp.open("GET", "/functions/ajax/login-go.php?id="+id+"&name="+name+"&email="+email, true);
+        xhttp.send();
+
+      };
+    </script>
+  </body>
+</html>

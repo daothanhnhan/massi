@@ -1,0 +1,63 @@
+.gb-gioithieu-company{
+  background: $color-4;
+  padding: 20px;
+  margin-bottom: 40px;
+  h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #333;
+  }
+  .gb-dress-intro{
+    ul{
+      li{
+        display: flow-root;
+        margin-bottom: 10px;
+        .icons{
+          width: 40px;
+          height: 40px;
+          border: 1px solid $color-main-ruouvang;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          color: $color-main-ruouvang;
+          float: left;
+        }
+        p{
+          padding-left: 60px;
+          color: $color-1;
+          font-size: 16px;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+  .gb-support-intro{
+    ul{
+      li{
+        display: flow-root;
+        margin-bottom: 10px;
+        .icons{
+          width: 35px;
+          height: 25px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          color: $color-main-ruouvang;
+          float: left;
+        }
+        p{
+          padding-left: 60px;
+          color: $color-1;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <h1 id="flexnav-jquery-plugin">FlexNav jQuery Plugin</h1>
+<h3 id="a-device-agnostic-approach-to-complex-site-navigation-with-support-for-touch-and-keyboard-accessibility">A Device Agnostic Approach to Complex Site Navigation with Support for Touch and Keyboard Accessibility</h3>
+<hr>
+<h3 id="the-details">The Details</h3>
+<ul>
+<li><a href="http://jasonweaver.name/lab/flexiblenavigation/">View Demo</a></li>
+<li><a href="http://jasonweaver.name/lab/flexiblenavigation/single-page-pattern.html">Single page site with fixed navigation demo</a></li>
+</ul>
+<p>A mobile-first example of using media queries and jQuery to make a decent site menu with drop downs. Special attention is paid to touch screens using touch events and tap targets. This is something I use to test different navigation techniques and may change as I iterate over different solutions to the problem. Basically I want a simple model to build upon when working on sites from scratch.</p>
+<p><strong>Note:</strong> If you find a bug, please <a href="https://github.com/indyplanets/flexnav/issues">file an issue</a> and note device and browser versions. Use <a href="http://jasonweaver.name/lab/flexiblenavigation/">the Demo</a> as a point of reference for bugs. I can&#39;t offer my time to debug your specific code.</p>
+<h3 id="resources">Resources</h3>
+<ul>
+<li><a href="http://highrockmedia.com/blog/theming-multi-level-responsive-menu-drupal-7">Theming a Multi-level Responsive Menu in Drupal 7</a></li>
+<li><a href="http://gratis.themehuis.com/">Gratis Drupal 7 Responsive Theme</a></li>
+<li><a href="http://forums.adobe.com/message/5811244">Dreamweaver support forum</a></li>
+<li><a href="http://wordpress.stackexchange.com/questions/101021/using-flexnav-with-wordpress">Using FlexNav with WordPress</a></li>
+<li><a href="http://bradpotter.com/themes/genesis20flex/">FlexNav with WordPress Genesis 2.0 demo</a></li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li>Multiple nested sub menus</li>
+<li>Tap targets to reveal sub menus for touch screens</li>
+<li>Hover reveal for desktop</li>
+<li>Keyboard tab input accessibility</li>
+<li>Use class <code>.one-page</code> on the <code>body</code>, <code>.menu-button</code>, and <code>ul.flexnav</code> for single page fixed menu</li>
+<li>Use with <a href="http://cherne.net/brian/resources/jquery.hoverIntent.html">hoverIntent jQuery plugin</a> (not included)</li>
+</ul>
+<h3 id="browser-support">Browser Support</h3>
+<ul>
+<li>IE7-10</li>
+<li>Latest Safari</li>
+<li>Latest Chrome</li>
+<li>Latest FireFox</li>
+<li>Android 2.2 to Latest</li>
+<li>Mobile Safari</li>
+</ul>
+<h3 id="license">License</h3>
+<p>FlexNav is unlicensed. Do whatever you want with it. :) <a href="http://unlicense.org/">Set Your Code Free</a></p>
+<hr>
+<h3 id="usage">Usage</h3>
+<p>Start with a simple unordered list, adding in the class and data attributes:</p>
+<pre><code class="lang-xhtml">&lt;ul class=&quot;flexnav&quot; data-breakpoint=&quot;800&quot;&gt; &lt;li&gt;...&lt;/li&gt; &lt;/ul&gt;
+</code></pre>
+<p>Add the small screen menu button somewhere outside your navigation markup:</p>
+<pre><code class="lang-xhtml">&lt;div class=&quot;menu-button&quot;&gt;Menu&lt;/div&gt;
+</code></pre>
+<p>For a single page site with id anchors, add <code>.one-page</code> class to <code>&lt;body&gt;</code>, <code>.menu-button</code>, and FlexNav <code>&lt;ul&gt;</code>:</p>
+<pre><code class="lang-xhtml">&lt;ul class=&quot;flexnav one-page&quot; data-breakpoint=&quot;800&quot;&gt; &lt;li&gt;...&lt;/li&gt; &lt;/ul&gt;    
+</code></pre>
+<p>Add flexnav.css to the head of your document</p>
+<pre><code class="lang-xhtml">&lt;link href=&quot;css/flexnav.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; / &gt;
+</code></pre>
+<p>Add jquery.flexnav.min.js before closing body tag and after jQuery</p>
+<pre><code class="lang-xhtml">&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.flexnav.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>Initialize</p>
+<pre><code class="lang-xhtml">&lt;script&gt;
+    $(&quot;.flexnav&quot;).flexNav();
+&lt;/script&gt;
+</code></pre>
+<h3 id="options">Options</h3>
+<pre><code class="lang-js">$(&quot;.flexnav&quot;).flexNav({
+  &#39;animationSpeed&#39;:     250,            // default for drop down animation speed
+  &#39;transitionOpacity&#39;:  true,           // default for opacity animation
+  &#39;buttonSelector&#39;:     &#39;.menu-button&#39;, // default menu button class name
+  &#39;hoverIntent&#39;:        false,          // Change to true for use with hoverIntent plugin
+  &#39;hoverIntentTimeout&#39;: 150,            // hoverIntent default timeout
+  &#39;calcItemWidths&#39;:     false,          // dynamically calcs top level nav item widths
+  &#39;hover&#39;:              true            // would you like hover support?        
+});
+</code></pre>
+<hr>
+<h3 id="contributors">Contributors</h3>
+<ul>
+<li><a href="http://jasonweaver.name">Jason Weaver</a> - (Primary)</li>
+<li><a href="https://github.com/jrsinclair">James Sinclair</a></li>
+<li><a href="https://github.com/alliwagner">Allison Wagner</a></li>
+<li><a href="https://github.com/breakerfall">Sean Breakerfall</a></li>
+<li><a href="https://github.com/robcaw">Robin Cawser</a></li>
+<li><a href="https://github.com/pallandt">pallandt</a></li>
+<li><a href="https://github.com/ac-bristol">ac-bristol</a></li>
+</ul>
+<hr>
+<h3 id="todo">Todo</h3>
+<p>see <a href="https://github.com/indyplanets/flexnav/wiki/Todos">Todos</a></p>
+<hr>
+<h3 id="changelog">Changelog</h3>
+<p>see <a href="https://github.com/indyplanets/flexnav/wiki/Changelog">Changelog</a></p>
+
+      </body>
+    </html>

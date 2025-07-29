@@ -1,0 +1,147 @@
+html{
+	font-size:62.5%;
+}
+*{
+	margin:0px auto;
+}
+body{
+    min-height: 100%;
+    position: relative;
+	background-color:#E6E8EA;
+}
+ul{
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6, i, img, a, p, ul, li{
+	float:left;
+	list-style-type:none;
+	text-decoration:none;
+}
+
+.formLogin{
+	width:500px;
+	height:390px;
+	background-color:#fff;
+	margin-top:70px;
+	padding:30px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.logoLogin{
+	width:70%;
+	margin:10px 15% 30px 15%;
+}
+.boxForm{
+	float:left;
+	width:100%;
+    border: 1px solid #ACACAC;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	margin-top:20px;
+}
+.iconLogin{
+	width:10%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 1px solid #ACACAC;
+    border-top-left-radius: 5px;
+    -moz-border-top-left: 5px;
+    -ms-border-top-left-radius: 5px;
+    -o-border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-bottom-left: 5px;
+    -ms-border-bottom-left-radius: 5px;
+    -o-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+}
+.txtLogin{
+	float:left;
+	width:90%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	padding:9px 10px;
+	border:none;
+	outline:none;
+    border-top-right-radius: 5px;
+    -moz-border-top-right: 5px;
+    -ms-border-top-right-radius: 5px;
+    -o-border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-bottom-right: 5px;
+    -ms-border-bottom-right-radius: 5px;
+    -o-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+.rowForm{
+	float:left;
+	width:100%;
+	margin:20px 0px;
+}
+.ckbForm{
+	float:left;
+	margin-right:8px;
+	height:17px;
+	width:17px;
+	margin-top:1px;
+}
+.rowForm label{
+	float:left;
+	font-size:1.6em;
+}
+.forgotLogin{
+	float:right;
+	color:#0F6995;
+	font-size:1.7em;
+	font-style:italic;
+	text-decoration:underline;
+}
+.btnLogin{
+	float:left;
+	width:100%;
+	font-size:1.7em;
+	color:#fff;
+	background-color:#226397;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	border:none;
+	outline:none;
+	padding:12px 0px;
+	cursor:pointer;
+}
+.endLogin{
+	width:100%;
+	text-align:center;
+	margin-top:50px;
+	line-height:1.4;
+	font-size:2em;
+}

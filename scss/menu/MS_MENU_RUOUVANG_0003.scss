@@ -1,0 +1,254 @@
+.gb-sidebar-category_ruouvang{
+  margin-bottom: 30px;
+  @media screen and (max-width: 991px){
+    display:  none;
+  }
+  .title_Module_Bar_5_ruouvang{
+    position: relative;
+    padding: 11px 0 11px 5%;
+    font-size: 15px;
+    font-weight: 600;
+    color: $color-white;
+    text-transform: uppercase;
+    background-color: $color-main-ruouvang;
+    i{
+      position: absolute;
+      right: 0;
+      top: 0;
+      background: $color-main-ruouvang;
+      margin: 0;
+      padding: 10px 15px 10px 15px;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+  .main-menu{
+    position:  relative;
+  }
+  .cssmenu,
+  .cssmenu ul,
+  .cssmenu ul li,
+  .cssmenu ul li a,
+  .cssmenu #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    span{
+      margin-right: 10px;
+      img{
+        width: 20px;
+      }
+    }
+  }
+  .cssmenu{
+    border: 1px solid $color-border;
+    ul{
+      position: relative;
+      li{
+        border-bottom: 1px solid $color-border;
+        position: relative;
+        &:last-child{
+          border-bottom: none;
+        }
+        a{
+          position: relative;
+        }
+      }
+      ul{
+        .item{
+          margin-bottom: 10px;
+          h3{
+            a{
+              display: block;
+              font-weight: 600;
+              margin-bottom: 10px;
+            }
+          }
+        }
+        ul{
+          overflow: initial;
+        }
+        li{
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .cssmenu:after,
+  .cssmenu > ul:after {
+    content: ".";
+
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+  .cssmenu #menu-button {
+    display: none;
+  }
+  .cssmenu {
+    width: auto;
+    line-height: 1;
+    @media screen and (max-width: 991px) {
+      display:  none;
+    }
+  }
+  .cssmenu.align-center > ul {
+    font-size: 0;
+    text-align: center;
+  }
+  .cssmenu.align-center > ul > li {
+    display: inline-block;
+    float: none;
+  }
+  .cssmenu.align-center ul ul {
+    text-align: left;
+  }
+  .cssmenu.align-right > ul > li {
+    float: right;
+  }
+  .cssmenu.align-right ul ul {
+    text-align: right;
+  }
+  .cssmenu > ul > li > a {
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: color .2s ease;
+    @media screen and (min-width: 992px) and (max-width:  1199px) {
+      font-size: 11px;
+    }
+  }
+  .cssmenu > ul > li:hover > a,
+  .cssmenu > ul > li.active > a {
+    color: $color-main-ruouvang;
+  }
+  .cssmenu > ul > li.has-sub > a {
+    padding-right: 25px;
+    &:hover{
+      &:before{
+        content: '';
+        display:  block;
+      }
+    }
+  }
+  .cssmenu > ul > li.has-sub > a::after {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    content: "\f105";
+    font-family: FontAwesome;
+  }
+  .cssmenu > ul > li.has-sub:hover > a::after {
+    border-color: #3f97da;
+  }
+  .cssmenu ul ul {
+    position: absolute;
+    left: -9999px;
+    z-index: 2;
+    background: #ffffff;
+    border: 1px solid $color-border;
+    margin-right: 100%;
+    top: -1;
+  }
+  .cssmenu li:hover > ul {
+    left: 100%;
+    position: absolute;
+    top: -1px;
+    li{
+      ul{
+        position: relative;
+        left: inherit;
+        margin-left: inherit;
+        width: auto;
+        box-shadow: none;
+        border: none;
+        padding: 0 0 0 20px;
+      }
+    }
+  }
+  .cssmenu.align-right li:hover > ul {
+    right: 0;
+  }
+  .cssmenu ul ul ul {
+    margin-left: 100%;
+    top: 0;
+    background: #ffffff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  .cssmenu ul ul ul li a{
+    color: #666666;
+
+  }
+  .cssmenu.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%;
+  }
+  .cssmenu ul ul li {
+    transition: height .2s ease;
+  }
+  .cssmenu ul ul {
+    li {
+      padding: 0 10px;
+      a {
+        display: block;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #666666;
+        min-width: 240px;
+        background: transparent;
+        text-decoration: none;
+        line-height: 30px;
+        transition: color .2s ease;
+        i{
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+  .cssmenu ul ul li:first-child{
+    a{
+      border-top: none;
+    }
+  }
+  .cssmenu ul ul li:hover > a,
+  .cssmenu ul ul li a:hover {
+    color: $color-main-ruouvang;
+    background: #fff;
+  }
+  .cssmenu ul ul li.has-sub > a::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    content: "\f105";
+    font-family: FontAwesome;
+  }
+  .cssmenu.align-right ul ul li.has-sub > a::after {
+    right: auto;
+    left: 10px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+  }
+  .cssmenu ul ul li.has-sub:hover > a::after {
+    border-color: #fff;
+  }
+}
